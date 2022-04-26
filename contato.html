@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	   <meta charset="utf-8">
+	
+	   <title>Contato</title>
+
+
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<body>
+		<header>
+				<fieldset class= "caixa">
+					<h1><img src="Logotipo.png" height="250px"; alt="Logo do portifólio"> </h1>
+
+			 
+					<nav>
+						<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Desafios.html">Desafios</a></li>
+						<li><a href="Contato.html">Contato</a></li>
+				
+						</ul>
+					</nav>	
+				</fieldset>
+		</header>
+		<main>
+			<form>
+				<label for="nomecompleto">Nome Completo</label>
+				<input type="text" id="nomecompleto" class="input-padrao" required>
+
+				<label for="email">Emai</label>
+				<input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+				<fieldset>
+				<p>Como prefere o contato?</p>
+				<label for="radio-email"><input type="radio" name="contato" value="radio-email" id="radio-email">Email</label>
+				
+				<label for="radio-telefone"><input type="radio" name="contato" value="radio-telefone" id="radio-telefone">Telefone</label>
+				
+				<label for="radio-whatsApp"><input type="radio" name="contato" value="radio-whatsApp" id="radio-whatsApp" checked>WhatsApp</label>
+				
+				</fieldset>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+
+
+			</form>
+		
+	
+		</main>
+		<footer>
+			<img src="mariroxo.png"height="50px">
+			<p class="copyright"> &copy; Copyright Portifólio Mariana Muniz 
+		</footer>
