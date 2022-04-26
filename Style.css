@@ -1,169 +1,192 @@
-body{
-	background-image: linear-gradient(90deg, DeepSkyBlue, DeepPink); 
-	padding: 20x 0;
-		família de fontes: 'Nanum Myeongjo', serifa;
+body {
+    background-image: linear-gradient(90deg, rgb(247, 167, 194), rgb(224, 255, 255));
+    padding: 20x 0;
+    família de fontes: 'Nanum Myeongjo', serifa;
 }
 
 header {
-	background-image: linear-gradient(90deg, DeepSkyBlue, DeepPink); 
-	padding: 20x 0;
-	
-
-}
-nav a:hover{
-	color: #FF0000;
-	text-decoration: underline;
-
+    background-image: linear-gradient(90deg, rgb(2247, 167, 194), rgb (224, 255, 255));
+    padding: 20x 0;
 }
 
-.caixa{
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+nav a:hover {
+    color: #00ff33;
+    text-decoration: underline;
 }
 
- nav{
- 	position: absolute;
- 	top: 110px;
- 	right: 0;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
 
- }
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
 nav li {
-	display: inline;
-	margin: 0   0   15px;
-}
-nav a{
-	text-transform: uppercase;
-	color: 000000;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
-}
-.logos{
-	width: auto;
-	margin: 0 auto;
-	padding: 50px 0;
-}
-.logos li{
-	display: inline-block;
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1%;
-	border-color: #FFE4E1;
-	border-width: 3px;
-	border-style: solid;
-	border-radius: 10px;
-}
-.logos li:hover {
-	border-color: #0000FF;
-}
-	
-.logos li:active{
-	border-color: #00BFFF;
+    display: inline;
+    margin: 0 0 15px;
 }
 
-.logos li:hover h2{
-	font-size: 35px;
+nav a {
+    text-transform: uppercase;
+    color: 000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
-.logos h2{
-	font-size: 30px;
-	font-weight: bold;
+
+.logos {
+    width: auto;
+    margin: 0 auto;
+    padding: 50px 0;
 }
-.texto{
-	font-size: 20px;
-	font-weight: bold;
-	margin: 10px 0 0;
+
+.logos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    border-color: #FFE4E1;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
 }
+
+.logos li:hover {
+    border-color: #ad98f1;
+}
+
+.logos li:active {
+    border-color: #4ee399d7;
+}
+
+.logos li:hover h2 {
+    font-size: 35px;
+}
+
+.logos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.texto {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
 footer {
-	text-align: center;
-	padding: 40px 0;
+    text-align: center;
+    padding: 40px 0;
 }
 
 .copyright {
-	color: #E0FFFF;
-	font-size: 13px;
+    color: #E0FFFF;
+    font-size: 13px;
 }
-main{
-	width: 940px;
-	margin: 0 auto;	
+
+main {
+    width: 940px;
+    margin: 0 auto;
 }
-form{
-	margin: 40px 0;
+
+form {
+    margin: 40px 0;
 }
-form label, form p {
-display: block;
-font-size: 20px;
-margin: 0 0 15px;
+
+form label,
+form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 15px;
 }
 
 .input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
 
-.enviar{
-	width: 40%;
-	padding: 15px 0;
-	background: HotPink ;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	border: none;
-	border-radius:6px ;
-	transition: 1s all;
-	cursor: pointer;
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: HotPink;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    transition: 1s all;
+    cursor: pointer;
 }
 
-.enviar:hover{
-	background: Pink;
-	transform: rotate(45deg) scale(1.2);
+.enviar:hover {
+    background: Pink;
+    transform: rotate(45deg) scale(1.2);
 }
 
 //*css da pagina inicial*//
-.banner{
-	width:200px ;
+.banner {
+    width: 200px;
 }
 
-.titulo-principal{
-text-transform: center;
-font-size: 2em;	
-margin: 0 0 1em;
-clear: left;
+.titulo-principal {
+    text-transform: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 }
 
-.principal p{
-	margin: 0 0 1em;
+.principal p {
+    margin: 0 0 1em;
 }
 
-.principal strong{
-	font-size: bold;
-	color: #000000;
-	
+.principal strong {
+    font-size: bold;
+    color: #000000;
 }
 
-.principal em{
-	font-style: italic;
+.principal em {
+    font-style: italic;
 }
 
-.portifolio-conteudo{
-	width: 60%;
-	margin: 0 auto;
-}
-.lista-desafios{
-	width: 40%;
-	display: inline-block;
+.portifolio-conteudo {
+    width: 60%;
+    margin: 0 auto;
 }
 
-.fronback{
-	width: 40%;
-
-}
-.marianaavatar{
-	width: 250px;
-	float: left;
-	margin: 0 20px 20px 0;
+.titulo-principal:first-line {
+    font-weight: bold;
+    font-style: italic;
 }
 
+.lista-desafios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fronback {
+    width: 60%;
+}
+
+.itens {
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "✅";
+}
+
+.marianaavatar {
+    width: 250px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
