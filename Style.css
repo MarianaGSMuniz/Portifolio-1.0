@@ -190,3 +190,9 @@ form p {
     float: left;
     margin: 0 20px 20px 0;
 }
+
+@media screen and (max-widht: 480px) {}
+
+body {
+    background: ;
+}
