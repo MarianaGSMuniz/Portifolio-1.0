@@ -1,0 +1,3 @@
+Um arquivo de interface fornece informações sobre arquivos e permite ao JavaScript acessar seu conteúdo.
+
+São recuperados geralmente a partir de um objeto FileList que é retornado como resultado da seleção, pelo usuário, de arquivos através do elemento, a partir de um objeto DataTransfer utilizado em operações de arrastar e soltar, ou a partir de mozGetAsFile()um HTMLCanvasElement . Em Gecko, códigos com privilégios podem criar arquivos representando qualquer arquivo local sem a intereção do usuário (veja Implementation notes para mais informações.)
