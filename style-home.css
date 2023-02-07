@@ -1,5 +1,5 @@
 body{
-	background-image: linear-gradient(90deg, DeepSkyBlue, DeepPink); 
+	background-image: linear-gradient(90deg, DeepSkyBlue, rgb(20, 161, 255)); 
 }
 
 div.container{
