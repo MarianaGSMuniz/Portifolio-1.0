@@ -1,7 +1,5 @@
 body {
-    background-image: linear-gradient(90deg, rgb(167, 218, 247), rgb(35, 167, 233));
-    padding: 20x 0;
-    família de fontes: 'Nanum Myeongjo', serifa;
+    background-image: url('hd-wallpaper-2072271_1920.jpg'); 
 }
 
 header {
@@ -28,14 +26,14 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 15px;
+    margin: 0 0 35px;
 }
 
 nav a {
     text-transform: uppercase;
     color: 000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 35px;
     text-decoration: none;
 }
 
@@ -66,23 +64,23 @@ nav a {
 }
 
 .logos li:hover h2 {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .logos h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .texto {
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
     margin: 10px 0 0;
 }
 
 footer {
     text-align: center;
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .copyright {
@@ -153,11 +151,11 @@ form p {
 }
 
 .principal em {
-    font-style: italic;
+    font-style: normal;
 }
 
 .portifolio-conteudo {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -167,7 +165,7 @@ form p {
 }
 
 .lista-desafios {
-    width: 40%;
+    width: 50%;
     display: inline-block;
     vertical-align: top;
 }

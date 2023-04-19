@@ -1,6 +1,6 @@
 body{
-	background-image: linear-gradient(90deg, DeepSkyBlue, rgb(20, 161, 255)); 
-}
+	background-image: url('hd-wallpaper-2072271_1920.jpg'); 
+} 
 
 div.container{
 	width: 100%;
@@ -11,22 +11,25 @@ div.container{
 	}
 
 .tituloprincipal{
-	padding: 15px;
+	padding: 48px;
 }
 
 h2{
 	text-align: center; 
 }
-#mariana avatar
-    width: width="250px";
+#mariana avatar {
+	width: width="250px";
+}
+   
     
 
 p {
 	text-align: center;
+	font-size: 48px;
 }
 
 #missao {
-font-size: 18px
+font-size: 48px
 } 
 strong {
 	color: SlateBlue;
