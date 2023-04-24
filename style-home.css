@@ -2,7 +2,8 @@ body{
 	background-image: url('hd-wallpaper-2072271_1920.jpg'); 
 } 
 
-div.container{
+
+/* div.container{
 	width: 100%;
 	padding: 30px 0;
 	display: flex;
@@ -50,4 +51,4 @@ ul{
 .fronback{
 	width: 20%;
 
-}
+} */

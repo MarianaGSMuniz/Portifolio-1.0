@@ -1,10 +1,16 @@
 body {
-    background-image: url('hd-wallpaper-2072271_1920.jpg'); 
+    /* background-image: url('hd-wallpaper-2072271_1920.jpg');  */
+    background-color: #B2A4FF;
+    color: #000;
 }
 
-header {
+strong {
+color: #f6f6f6;
+}
+
+/* header {
     background-image: linear-gradient(90deg, rgb(2247, 167, 194), rgb (224, 255, 255));
-    padding: 20x 0;
+    padding: 48x 0;
 }
 
 nav a:hover {
@@ -127,10 +133,10 @@ form p {
 .enviar:hover {
     background: Pink;
     transform: rotate(45deg) scale(1.2);
-}
+} */
 
-//*css da pagina inicial*//
-.banner {
+/*css da pagina inicial*/
+/* .banner {
     width: 200px;
 }
 
@@ -202,4 +208,4 @@ form p {
     .fronback {
         width: 100%;
     }
-}
+} */
