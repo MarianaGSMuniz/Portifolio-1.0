@@ -1,11 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
     /* background-image: url('hd-wallpaper-2072271_1920.jpg');  */
     background-color: #B2A4FF;
     color: #000;
 }
 
-strong {
-color: #f6f6f6;
+span {
+ font-weight:normal;
+ color: #f6f6f6;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
 }
 
 /* header {
